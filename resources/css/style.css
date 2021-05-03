@@ -1,11 +1,4 @@
 /* Universal Styles */
-@font-face {
-  font-family: 'Palatino-Italic';
-  src: url('fonts/Palatino.woff2') format('woff2'),
-       url('fonts/Palatino.woff') format('woff'),
-       url('fonts/Palatino.tff') format('truetype')
-}
-
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -73,6 +66,7 @@ nav a {
   vertical-align: bottom;
   line-height: 1.6;
   font-size: 1rem;
+  font-family: Roboto;
   color: #4a4a4a;
 }
 
@@ -140,8 +134,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
-  margin-top: 170px;
-  margin-left: 100px;
+  margin-top: 10.625rem;
+  margin-left: 6.25rem;
 }
 
 #sign-up-cta .content {
@@ -240,15 +234,20 @@ header .mobile {
 
 .feature {
   flex: 1;
-  padding: 2rem;
+  
   margin: 0px 1.25rem;
   background-color: white;
 }
 
-.feature .image-container {
+.feature .image-container > img{
+  padding: 2rem;
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+.feature .content {
+  margin-top: 2.5rem;
 }
 
 .feature h2 {
@@ -366,7 +365,6 @@ header .mobile {
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
-  border: 2px solid lime;
 }
 
 #quotes-section .content {

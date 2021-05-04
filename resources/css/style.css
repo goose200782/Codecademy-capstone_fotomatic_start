@@ -246,10 +246,6 @@ header .mobile {
   margin: 0 auto;
 }
 
-.feature .content {
-  margin-top: 2.5rem;
-}
-
 .feature h2 {
   font-family: Roboto;
   padding-bottom: .5rem;
@@ -275,6 +271,12 @@ header .mobile {
   .feature h3 {
     font-size: .875rem;
     line-height: 1.4;
+  }
+}
+
+@media only screen and (min-width: 760px){
+  .feature .content {
+    margin-top: 2.5rem;
   }
 }
 
